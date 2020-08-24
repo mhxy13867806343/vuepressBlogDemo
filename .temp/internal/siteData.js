@@ -71,6 +71,13 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/es6/note/",
+      "relativePath": "es6/note/README.md",
+      "key": "v-dda5f9fc",
+      "path": "/es6/note/"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/fe/",
       "relativePath": "fe/README.md",
       "key": "v-68da2ad5",
@@ -82,13 +89,6 @@ export const siteData = {
       "relativePath": "link/README.md",
       "key": "v-025cf075",
       "path": "/link/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/es6/note/",
-      "relativePath": "es6/note/README.md",
-      "key": "v-dda5f9fc",
-      "path": "/es6/note/"
     },
     {
       "frontmatter": {},

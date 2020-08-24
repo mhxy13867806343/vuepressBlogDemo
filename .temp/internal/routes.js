@@ -65,6 +65,18 @@ export const routes = [
     redirect: "/es6/"
   },
   {
+    name: "v-dda5f9fc",
+    path: "/es6/note/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-dda5f9fc").then(next)
+    },
+  },
+  {
+    path: "/es6/note/index.html",
+    redirect: "/es6/note/"
+  },
+  {
     name: "v-68da2ad5",
     path: "/fe/",
     component: GlobalLayout,
@@ -87,18 +99,6 @@ export const routes = [
   {
     path: "/link/index.html",
     redirect: "/link/"
-  },
-  {
-    name: "v-dda5f9fc",
-    path: "/es6/note/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-dda5f9fc").then(next)
-    },
-  },
-  {
-    path: "/es6/note/index.html",
-    redirect: "/es6/note/"
   },
   {
     name: "v-53a7f95e",
