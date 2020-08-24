@@ -38,85 +38,78 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-1c16ff70",
+      "key": "v-287a6e5c",
       "path": "/"
     },
     {
       "frontmatter": {},
       "regularPath": "/about/",
       "relativePath": "about/README.md",
-      "key": "v-5eb6ffbe",
+      "key": "v-b3d972fa",
       "path": "/about/"
     },
     {
       "frontmatter": {},
       "regularPath": "/accumulate/accumulate/",
       "relativePath": "accumulate/accumulate/README.md",
-      "key": "v-3ee121e0",
+      "key": "v-f407a51c",
       "path": "/accumulate/accumulate/"
     },
     {
       "frontmatter": {},
       "regularPath": "/bar/a.html",
       "relativePath": "bar/a.md",
-      "key": "v-3b077b84",
+      "key": "v-9dc031c8",
       "path": "/bar/a.html"
     },
     {
       "frontmatter": {},
       "regularPath": "/es6/",
       "relativePath": "es6/README.md",
-      "key": "v-4b53786b",
+      "key": "v-854e8066",
       "path": "/es6/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/es6/note/",
-      "relativePath": "es6/note/README.md",
-      "key": "v-976fe3c0",
-      "path": "/es6/note/"
     },
     {
       "frontmatter": {},
       "regularPath": "/fe/",
       "relativePath": "fe/README.md",
-      "key": "v-40c672f3",
+      "key": "v-68da2ad5",
       "path": "/fe/"
     },
     {
       "frontmatter": {},
       "regularPath": "/link/",
       "relativePath": "link/README.md",
-      "key": "v-06e80cda",
+      "key": "v-025cf075",
       "path": "/link/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/es6/note/",
+      "relativePath": "es6/note/README.md",
+      "key": "v-dda5f9fc",
+      "path": "/es6/note/"
     },
     {
       "frontmatter": {},
       "regularPath": "/vue/",
       "relativePath": "vue/README.md",
-      "key": "v-6426bbef",
+      "key": "v-53a7f95e",
       "path": "/vue/"
     },
     {
       "frontmatter": {},
       "regularPath": "/webframe/",
       "relativePath": "webframe/README.md",
-      "key": "v-638eacf3",
+      "key": "v-4073a1d5",
       "path": "/webframe/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/webframe/vue.html",
-      "relativePath": "webframe/vue.md",
-      "key": "v-bb02bd38",
-      "path": "/webframe/vue.html"
     },
     {
       "title": "es6 目录",
       "frontmatter": {},
       "regularPath": "/webframe/es6/",
       "relativePath": "webframe/es6/README.md",
-      "key": "v-518dbb74",
+      "key": "v-a357d5b0",
       "path": "/webframe/es6/",
       "headers": [
         {
@@ -128,16 +121,23 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/webframe/vue.html",
+      "relativePath": "webframe/vue.md",
+      "key": "v-143969c2",
+      "path": "/webframe/vue.html"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/webframe/vue/vue.html",
       "relativePath": "webframe/vue/vue.md",
-      "key": "v-79e73c63",
+      "key": "v-797ac6c1",
       "path": "/webframe/vue/vue.html"
     },
     {
       "frontmatter": {},
       "regularPath": "/works/",
       "relativePath": "works/README.md",
-      "key": "v-13d5d777",
+      "key": "v-2d76c44e",
       "path": "/works/"
     }
   ],
