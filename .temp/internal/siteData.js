@@ -50,13 +50,6 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/accumulate/accumulate/",
-      "relativePath": "accumulate/accumulate/README.md",
-      "key": "v-f407a51c",
-      "path": "/accumulate/accumulate/"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/bar/a.html",
       "relativePath": "bar/a.md",
       "key": "v-9dc031c8",
@@ -64,10 +57,24 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/accumulate/accumulate/",
+      "relativePath": "accumulate/accumulate/README.md",
+      "key": "v-f407a51c",
+      "path": "/accumulate/accumulate/"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/es6/",
       "relativePath": "es6/README.md",
       "key": "v-854e8066",
       "path": "/es6/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/es6/commonly/",
+      "relativePath": "es6/commonly/README.md",
+      "key": "v-3c391842",
+      "path": "/es6/commonly/"
     },
     {
       "frontmatter": {},
@@ -203,6 +210,12 @@ export const siteData = {
         {
           "title": "笔记",
           "path": "/es6/note/",
+          "collapsable": false,
+          "sidebarDepth": 1
+        },
+        {
+          "title": "常用",
+          "path": "/es6/commonly/",
           "collapsable": false,
           "sidebarDepth": 1
         }

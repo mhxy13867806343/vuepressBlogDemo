@@ -65,6 +65,18 @@ export const routes = [
     redirect: "/es6/"
   },
   {
+    name: "v-3c391842",
+    path: "/es6/commonly/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3c391842").then(next)
+    },
+  },
+  {
+    path: "/es6/commonly/index.html",
+    redirect: "/es6/commonly/"
+  },
+  {
     name: "v-dda5f9fc",
     path: "/es6/note/",
     component: GlobalLayout,
@@ -125,6 +137,14 @@ export const routes = [
     redirect: "/webframe/"
   },
   {
+    name: "v-143969c2",
+    path: "/webframe/vue.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-143969c2").then(next)
+    },
+  },
+  {
     name: "v-a357d5b0",
     path: "/webframe/es6/",
     component: GlobalLayout,
@@ -135,14 +155,6 @@ export const routes = [
   {
     path: "/webframe/es6/index.html",
     redirect: "/webframe/es6/"
-  },
-  {
-    name: "v-143969c2",
-    path: "/webframe/vue.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-143969c2").then(next)
-    },
   },
   {
     name: "v-797ac6c1",

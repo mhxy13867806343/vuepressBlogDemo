@@ -1,11 +1,11 @@
 <template>
   <div class="content">
    <div class="data" v-for="(item,index) in list" :key="index">
-     <h1>{{item.name}}</h1>
+     <h1 :title="item.name">{{item.name}}</h1>
      <div class="data-child" v-for="(a,b) in item.data" :key="b">
-       <h5>{{a.name}}</h5>
+       <h5 :title="a.name">{{a.name}}</h5>
        <el-link   v-for="(p1,p2) in a.childList" :key="p2" :underline="false"
-                  :href="p1.link" target="_blank">{{p1.name}}</el-link>
+                  :href="p1.link" target="_blank" :title="p1.name">{{p1.name}}</el-link>
      </div>
    </div>
 

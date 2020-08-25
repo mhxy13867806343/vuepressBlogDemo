@@ -7,13 +7,14 @@ export default {
   "v-f407a51c": () => import("E:\\blog\\static-blog--vuepress\\docs\\accumulate\\accumulate\\README.md"),
   "v-9dc031c8": () => import("E:\\blog\\static-blog--vuepress\\docs\\bar\\a.md"),
   "v-854e8066": () => import("E:\\blog\\static-blog--vuepress\\docs\\es6\\README.md"),
+  "v-3c391842": () => import("E:\\blog\\static-blog--vuepress\\docs\\es6\\commonly\\README.md"),
   "v-dda5f9fc": () => import("E:\\blog\\static-blog--vuepress\\docs\\es6\\note\\README.md"),
   "v-68da2ad5": () => import("E:\\blog\\static-blog--vuepress\\docs\\fe\\README.md"),
   "v-025cf075": () => import("E:\\blog\\static-blog--vuepress\\docs\\link\\README.md"),
   "v-53a7f95e": () => import("E:\\blog\\static-blog--vuepress\\docs\\vue\\README.md"),
   "v-4073a1d5": () => import("E:\\blog\\static-blog--vuepress\\docs\\webframe\\README.md"),
-  "v-a357d5b0": () => import("E:\\blog\\static-blog--vuepress\\docs\\webframe\\es6\\README.md"),
   "v-143969c2": () => import("E:\\blog\\static-blog--vuepress\\docs\\webframe\\vue.md"),
+  "v-a357d5b0": () => import("E:\\blog\\static-blog--vuepress\\docs\\webframe\\es6\\README.md"),
   "v-797ac6c1": () => import("E:\\blog\\static-blog--vuepress\\docs\\webframe\\vue\\vue.md"),
   "v-2d76c44e": () => import("E:\\blog\\static-blog--vuepress\\docs\\works\\README.md") 
 }
