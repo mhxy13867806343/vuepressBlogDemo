@@ -17,6 +17,7 @@
     "sass-loader": "^9.0.3"
   },
   "dependencies": {
+    "clipboard": "^2.0.6",
     "element-ui": "^2.13.2"
   }
 }

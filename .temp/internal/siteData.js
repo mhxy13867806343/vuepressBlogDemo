@@ -212,12 +212,6 @@ export const siteData = {
           "path": "/es6/note/",
           "collapsable": false,
           "sidebarDepth": 1
-        },
-        {
-          "title": "常用",
-          "path": "/es6/commonly/",
-          "collapsable": false,
-          "sidebarDepth": 1
         }
       ]
     }

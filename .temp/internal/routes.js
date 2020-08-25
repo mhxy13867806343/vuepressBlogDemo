@@ -33,6 +33,14 @@ export const routes = [
     redirect: "/about/"
   },
   {
+    name: "v-9dc031c8",
+    path: "/bar/a.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-9dc031c8").then(next)
+    },
+  },
+  {
     name: "v-f407a51c",
     path: "/accumulate/accumulate/",
     component: GlobalLayout,
@@ -43,14 +51,6 @@ export const routes = [
   {
     path: "/accumulate/accumulate/index.html",
     redirect: "/accumulate/accumulate/"
-  },
-  {
-    name: "v-9dc031c8",
-    path: "/bar/a.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-9dc031c8").then(next)
-    },
   },
   {
     name: "v-854e8066",
@@ -137,14 +137,6 @@ export const routes = [
     redirect: "/webframe/"
   },
   {
-    name: "v-143969c2",
-    path: "/webframe/vue.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-143969c2").then(next)
-    },
-  },
-  {
     name: "v-a357d5b0",
     path: "/webframe/es6/",
     component: GlobalLayout,
@@ -155,6 +147,14 @@ export const routes = [
   {
     path: "/webframe/es6/index.html",
     redirect: "/webframe/es6/"
+  },
+  {
+    name: "v-143969c2",
+    path: "/webframe/vue.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-143969c2").then(next)
+    },
   },
   {
     name: "v-797ac6c1",
