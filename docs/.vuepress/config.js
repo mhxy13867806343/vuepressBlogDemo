@@ -14,6 +14,10 @@ module.exports = {
         {text: '主页', link: '/' },
         {text: '前端', link: '/fe/' },
         { text:'es6',link:'/es6/'},
+          {
+              "text": "实例",
+              "link": "/codes/"
+          },
     {text: '前端框架',
 
     items:[
@@ -34,7 +38,7 @@ module.exports = {
           },
           { text: '我的作品', link: '/works/' },
           { text: '友情链接', link: '/link/' },
-        {text: '关于', link: '/about/'}      
+        {text: '关于', link: '/about/'}
       ],
       sidebar:{
         '/es6/':[
@@ -45,6 +49,12 @@ module.exports = {
                 collapsable: false, // 可选的, 默认值是 true,
                 sidebarDepth: 1,    // 可选的, 默认值是 1
               },
+            {
+                title: '常用',   // 必要的
+                path: '/es6/commonly/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+                collapsable: false, // 可选的, 默认值是 true,
+                sidebarDepth: 1,    // 可选的, 默认值是 1
+            },
           ]
       }
 

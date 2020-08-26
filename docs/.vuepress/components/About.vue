@@ -1,17 +1,22 @@
 <template>
   <div class="content">
-    <el-card class="box-card">
-
-      <p>邮箱:
-        <el-link :underline="false" target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=869710179@qq.com">点击写信</el-link>
-      </p>
-      <h1>关于我</h1>
-      <el-divider />
-      <div>
-        <p>我是一个简单的"next"</p>
-        <p>目前在宁波的一家互联网公司供职,主要负责web前端,h5,小程序及app端的开发与制作</p>
-      </div>
-    </el-card>
+    <div @click="isWidth">
+      <el-card class="box-card" :style="{width:width+'%'}" >
+        <p>邮箱:
+          <el-link :underline="false" target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=869710179@qq.com">点击写信</el-link>
+        </p>
+        <h1>关于我</h1>
+        <el-divider />
+        <div>
+          <p>我是一个简单的"next"</p>
+          <p>目前在宁波的一家互联网公司供职,主要负责web前端,h5,小程序及app端的开发与制作</p>
+        </div>
+        <h1>我的微信二维码</h1>
+        <div>
+          <p>    <el-image :src="require('./mmqrcode1598424624600.png')"></el-image></p>
+        </div>
+      </el-card>
+    </div>
     <div class="pogress">
       <div v-for="(item,index) in list" :key="index">
         <h1>{{item.name}}</h1>
@@ -34,6 +39,7 @@
 export default {
   data(){
     return {
+      width:10,
       list:[
           {
             name:'技术类',
@@ -68,6 +74,24 @@ export default {
       ]
     }
   },
+  computed:{
+    transition(){
+      if(this.width===1){
+        return {
+          transition: 'right'
+        }
+      } else {
+        return {
+          transition: 'right'
+        }
+      }
+    }
+  },
+  methods:{
+    isWidth(){
+      this.width=this.width===10?40:10
+    }
+  }
 }
 
 </script>
@@ -78,6 +102,15 @@ export default {
     right: 10px;
     top:50%;
     width: 40%;
+  }
+  .icon{
+    position: fixed;
+    right: 20px;
+    top:50%;
+    font-size: 100px;
+  }
+  .icons{
+    transition: right 1s;
   }
 }
 .pogress{

@@ -1,10 +1,10 @@
 <template>
-  <div>请稍等</div>
+<div>请稍等</div>
 </template>
 
 <script>
 export default {
-  name: "commonly"
+  name: "index"
 }
 </script>
 
