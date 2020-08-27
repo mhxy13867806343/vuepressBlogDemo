@@ -23,6 +23,10 @@ export default {
         {
           name:'vue项目之(pc端)后台管理系统开发',
           href:'https://www.yuque.com/jscode/notes/ceboy2'
+        },
+        {
+          name:'我项目中常用的es6用法（A）基本笔记',
+          href:'https://www.yuque.com/jscode/notes/qggkzm'
         }
       ]
     }
