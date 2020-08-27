@@ -1,4 +1,4 @@
-
+const sidebar =require('./config.sidebar')
 module.exports = {
     title: '200s\'s 的个人博客区',
     description: '我的个人网站',
@@ -40,23 +40,6 @@ module.exports = {
           { text: '友情链接', link: '/link/' },
         {text: '关于', link: '/about/'}
       ],
-      sidebar:{
-        '/es6/':[
-            ['','目录'],
-            {
-                title: '笔记',   // 必要的
-                path: '/es6/note/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-                collapsable: false, // 可选的, 默认值是 true,
-                sidebarDepth: 1,    // 可选的, 默认值是 1
-              },
-            {
-                title: '常用',   // 必要的
-                path: '/es6/commonly/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-                collapsable: false, // 可选的, 默认值是 true,
-                sidebarDepth: 1,    // 可选的, 默认值是 1
-            },
-          ]
-      }
-
+      sidebar:sidebar
     }
   };
