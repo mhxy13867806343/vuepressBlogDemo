@@ -1,1 +1,2 @@
-资源部分
+
+<aJSourec></aJSourec>
