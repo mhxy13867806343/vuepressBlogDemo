@@ -34,6 +34,56 @@ export default {
           name:'技术类',
           data:[
             {
+              name:'vue3相关',
+              childList: [
+                {
+                  name:'vue3（英文文档）',
+                  link: 'https://vue3js.cn/docs/'
+                },
+                {
+                  name:'vue3(api中文)文档',
+                  link: "https://vue3js.cn/vue-composition-api/"
+                },
+                {
+                  name:'vue3(组合式 API 征求意见稿中文)文档',
+                  link: "https://vue3js.cn/vue-composition/"
+                },
+                {
+                  name:'Vue3源码(中文)',
+                  link: 'https://vue3js.cn/start/'
+                }
+              ]
+            },
+            {
+              name:'vue全家桶',
+              childList: [
+                {
+                  name:'Vue CLI(中文)',
+                  link: 'https://cli.vuejs.org/zh/'
+                },
+                {
+                  name:'axios(英文)',
+                  link: 'https://github.com/axios/axios'
+                },
+                {
+                  name:'vue2(中文)文档',
+                  link: 'https://doc.vue-js.com/v2/api/'
+                },
+                {
+                  name:'vuex(中文)文档',
+                  link: 'https://vuex.vuejs.org/zh/guide/'
+                },
+                {
+                  name:'vue-router(中文)',
+                  link: 'https://router.vuejs.org/zh/'
+                },
+                {
+                  name:'NuxtJS(中文)文档',
+                  link: 'https://www.nuxtjs.cn/'
+                }
+              ]
+            },
+            {
               name:'安装库的方式',
               childList:[
                 {
@@ -294,6 +344,28 @@ export default {
               ]
             }
             ]
+        },
+        {
+          name:'优秀类',
+          data:[
+            {
+              name:'博客',
+              childList: [
+                {
+                  name:'深入理解Vue.js实战',
+                  link: 'https://godbasin.github.io/vue-ebook/vue-ebook/0.html'
+                },
+                {
+                  name:'Vue3.0(网友的博客)',
+                  link: 'https://vue3js.cn/'
+                },
+                {
+                  name:'一个面向 RESTful API 设计的开箱即用主题(网友的博客)',
+                  link: 'https://blog.sqrtthree.com/vuepress-theme-api/zh/getting-started/'
+                }
+              ]
+            }
+          ]
         },
 
       ]
