@@ -154,12 +154,20 @@ export default {
               name:'Css',
               childList:[
                 {
-                  name:'css文档',
+                  name:'css文档(中文)',
                   link:'http://css.doyoe.com/'
                 },
                 {
                   name:'caniuse',
                   link:'https://caniuse.com/'
+                },
+                {
+                  name:'Animate.css 随便添加CSS动画',
+                  link: 'https://animate.style/'
+                },
+                {
+                  name:'Normalize.css使浏览器更一致地渲染所有元素，并符合现代标准。它只针对需要规范化的样式。',
+                  link: 'http://necolas.github.io/normalize.css/'
                 }
               ]
             },
@@ -178,12 +186,36 @@ export default {
                 {
                   name:'es6',
                   link:'https://es6.ruanyifeng.com/'
+                },
+                {
+                  name:'ES6 教程(镜像)',
+                  link: 'https://wangdoc.com/es6/'
+                },
+                {
+                  name:'babel',
+                  link: 'https://babel.dev/'
+                },
+                {
+                  name:'echarts(中文)',
+                  link: 'https://echarts.apache.org/zh/index.html'
+                },
+                {
+                  name:'jskatas',
+                  link: 'https://jskatas.org/'
+                },
+                {
+                  name:'JavaScript 标准参考教程（alpha）',
+                  link: 'https://javascript.ruanyifeng.com/'
                 }
               ]
             },
             {
               name:'Vue&&Vue-Cli',
               childList: [
+                {
+                  name:'vue2(中文)文档',
+                  link:'https://cn.vuejs.org/'
+                },
                 {
                   name:'vue-cli',
                   link:'https://cli.vuejs.org/zh/'
@@ -262,6 +294,15 @@ export default {
                 {
                   name:'element-admin',
                   link:'https://panjiachen.github.io/vue-element-admin-site/zh/guide/'
+                }
+              ]
+            },
+            {
+              name:'vue表格类插件',
+              childList: [
+                {
+                  name:' vue-easytable(中文)',
+                  link: 'http://doc.huangsw.com/vue-easytable/app.html#/intro'
                 }
               ]
             },
@@ -424,7 +465,20 @@ export default {
             }
           ]
         },
-
+        {
+          name:'论坛类',
+          data:[
+            {
+              name:'forum(可能有英文)',
+              childList: [
+                {
+                  name:'Vue Forum论坛(中文)',
+                  link: 'https://forum.vuejs.org/'
+                }
+              ]
+            }
+          ]
+        },
       ]
     }
   }
