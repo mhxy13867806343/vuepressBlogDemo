@@ -31,11 +31,60 @@ export default {
           ]
         },
         {
+          name:'文档类',
+          data:[
+            {
+              name:'css文档',
+              childList: [
+                {
+                  name:'Sass (3.4.21) 中文文档',
+                  link: 'https://www.html.cn/doc/sass/'
+                }
+              ]
+            },
+            {
+              name:'jquery文档',
+              childList: [
+                {
+                  name:'jQuery API 中文文档(适用jQuery 1.0 - jQuery 3.3.1) ',
+                  link: 'https://www.html.cn/jqapi-1.9/'
+                }
+              ]
+            },
+            {
+              name:'better-scroll文档',
+              childList: [
+                {
+                  name:'better-scroll 是什么 ',
+                  link: 'https://better-scroll.github.io/docs-v1/doc/zh-hans/#better-scroll%20%E6%98%AF%E4%BB%80%E4%B9%88'
+                }
+              ]
+            }
+          ]
+        },
+        {
           name:'技术类',
           data:[
             {
+              name:'vue相关的ui库',
+              childList: [
+                {
+                  name:'将 vant-weapp 转化成 uniapp 组件，目前基于 vant-weapp@1.3.3 版本进行转化',
+                  link: 'https://auven.github.io/vant-weapp-convert-uniapp/#/intro'
+                },
+                {
+                  name:'uni-app扩展组件',
+                  link: 'https://hellouniapp.dcloud.net.cn/pages/tabBar/extUI/extUI'
+                }
+              ]
+            },
+            {
               name:'vue3相关',
               childList: [
+                {
+                  name:'vue3（中文文档）',
+                  link: 'https://v3.cn.vuejs.org/'
+                },
                 {
                   name:'vue3（英文文档）',
                   link: 'https://vue3js.cn/docs/'
@@ -340,6 +389,10 @@ export default {
                 {
                   name:'67 个拯救前端开发者的工具、库和资源',
                   link: 'https://segmentfault.com/a/1190000014162502'
+                },
+                {
+                  name:'SASS 转 CSS',
+                  link: 'https://www.dute.org/sass-to-css'
                 }
               ]
             }
@@ -362,6 +415,10 @@ export default {
                 {
                   name:'一个面向 RESTful API 设计的开箱即用主题(网友的博客)',
                   link: 'https://blog.sqrtthree.com/vuepress-theme-api/zh/getting-started/'
+                },
+                {
+                  name:'uniapp实现左右滑动长列表',
+                  link: 'https://q32757468.github.io/2019/11/29/uniapp%E5%AE%9E%E7%8E%B0%E5%B7%A6%E5%8F%B3%E6%BB%91%E5%8A%A8%E9%95%BF%E5%88%97%E8%A1%A8/'
                 }
               ]
             }
