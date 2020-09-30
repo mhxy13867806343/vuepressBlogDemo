@@ -158,7 +158,7 @@ export default {
                   link:'http://css.doyoe.com/'
                 },
                 {
-                  name:'caniuse',
+                  name:'caniuse(查看css之类属性的兼容性之类的问题)',
                   link:'https://caniuse.com/'
                 },
                 {
@@ -183,6 +183,10 @@ export default {
             {
               name:'Js',
               childList: [
+                {
+                  name:'d3-API 文档 ( 中文版 )',
+                  link: 'https://github.com/xswei/d3js_doc'
+                },
                 {
                   name:'es6',
                   link:'https://es6.ruanyifeng.com/'
@@ -381,6 +385,10 @@ export default {
                   name:'网易云音乐 NodeJS 版 API',
                   link: 'https://binaryify.github.io/NeteaseCloudMusicApi/#/'
                 },
+                {
+                  name:'ShowDoc一个非常适合IT团队的在线API文档、技术文档工具',
+                  link: 'https://www.showdoc.com.cn/'
+                },
               ]
             },
             {
@@ -434,6 +442,10 @@ export default {
                 {
                   name:'SASS 转 CSS',
                   link: 'https://www.dute.org/sass-to-css'
+                },
+                {
+                  name:'devdocs',
+                  link: 'https://devdocs.io/'
                 }
               ]
             }
@@ -474,6 +486,20 @@ export default {
                 {
                   name:'Vue Forum论坛(中文)',
                   link: 'https://forum.vuejs.org/'
+                }
+              ]
+            }
+          ]
+        },
+        {
+          name:'文档类',
+          data:[
+            {
+              name:'Markdown',
+              childList: [
+                {
+                  name:'Markdown文件(中文)',
+                  link: 'https://markdown.tw/'
                 }
               ]
             }
