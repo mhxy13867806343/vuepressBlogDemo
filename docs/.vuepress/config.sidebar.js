@@ -18,13 +18,22 @@ module.exports = {
       path: '/fe/css/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
       collapsable: false, // 可选的, 默认值是 true,
       sidebarDepth: 1,    // 可选的, 默认值是 1
+      children:[
+        { title: 'css世界', path:'css/world/'}
+      ]
     },
     {
       title: 'js',   // 必要的
       path: '/fe/js/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
       collapsable: false, // 可选的, 默认值是 true,
       sidebarDepth: 1,    // 可选的, 默认值是 1
+      children:[
+        { title: '你不知道js上中下', path:'js/js/'},
+        { title: 'webpack', path:'js/webpack/'},
+        { title: '设计模式和数据结构', path:'js/design-patterns-and-data-structures/'},
+      ]
     },
+    
     {
       title: '其他',   // 必要的
       path: '/fe/qt/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在

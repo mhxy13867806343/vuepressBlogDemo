@@ -36,7 +36,8 @@ module.exports = {
              
             ]
           },
-          { text: '我的作品', link: '/works/' },
+          { text: '作品', link: '/works/' },
+          { text: '娱乐', link: '/entertainment/' },
           { text: '友情链接', link: '/link/' },
         {text: '关于', link: '/about/'}
       ],
