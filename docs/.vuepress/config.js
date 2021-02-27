@@ -5,7 +5,7 @@ module.exports = {
     head: [ // 注入到当前页面的 HTML <head> 中的标签
       ['link', { rel: 'icon', href: '/logo.jpg' }], // 增加一个自定义的 favicon(网页标签的图标)
     ],
-    base: '/', // 这是部署到github相关的配置
+    base: '/200s.github.io', // 这是部署到github相关的配置
     markdown: {
       lineNumbers: false // 代码块显示行号
     },
@@ -33,7 +33,7 @@ module.exports = {
               { text: '掘金', link: 'https://juejin.im/user/1310273588955581' },
               { text: 'github', link: 'https://juejin.im/user/1310273588955581' },
               { text: '微博', link: 'https://weibo.com/fangjiayu1107' }
-             
+
             ]
           },
           { text: '作品', link: '/works/' },
