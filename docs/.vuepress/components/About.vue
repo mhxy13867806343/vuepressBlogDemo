@@ -9,7 +9,7 @@
         <el-divider />
         <div>
           <p>我是一个简单的"next"</p>
-          <p>目前在宁波的一家互联网公司供职,主要负责web前端,h5,小程序及app端的开发与制作</p>
+          <p>目前在杭州的一家互联网公司供职,主要负责web前端,h5,小程序及app端的开发与制作</p>
         </div>
         <h1>我的微信二维码</h1>
         <div>
@@ -33,6 +33,53 @@
         </div>
       </div>
     </div>
+		<div class="experienced">
+			<h1>有关经历</h1>
+			<el-steps direction="vertical" :active="1">
+				<el-step title="2021年(05月份)-至今">
+					<template #description>
+						<div class="description">
+							在<span>杭州红动网络科技有限公司</span>就职，从事于h5前端的开发,项目请点击作品链接查看
+						</div>
+					</template>
+				</el-step>
+				<el-step title="2021年(11月份)-2022年(05月份)">
+					<template #description>
+						<div class="description">
+							在<span>宁波银行</span>就职，从事于h5前端的开发,开发宁波银行app(项目采用前后端分离，app端采用混合式进行开发)
+						</div>
+					</template>
+				</el-step>
+				<el-step title="2020年(05月份)-2021年(05月份)">
+					<template #description>
+						<div class="description">
+							在<span>宁波含包阁网络有限公司</span>就职，从事于h5前端的开发,开发小程序，h5，及安卓（uniapp）app应用程序的开发,项目请点击作品链接查看
+						</div>
+					</template>
+				</el-step>
+				<el-step title="2019年(05月份)-2020年(04月份)">
+					<template #description>
+						<div class="description">
+							在<span>嘉兴驴行网络科技有限公司</span>就职，从事于h5前端的开发,开发小程序应用程序的开发,项目请点击作品链接查看
+						</div>
+					</template>
+				</el-step>
+				<el-step title="2018年(04月份)-2019年(03月份)">
+					<template #description>
+						<div class="description">
+							在<span>浙江环鑫信息技术有限公司</span>就职，从事于h5前端的应用程序的开发,项目请点击作品链接查看
+						</div>
+					</template>
+				</el-step>
+				<el-step title="2016年(07月份)-2018年(04月份)">
+					<template #description>
+						<div class="description">
+							在<span>浙江环鑫信息技术有限公司</span>就职，从事于h5前端的应用程序的开发,项目请点击作品链接查看
+						</div>
+					</template>
+				</el-step>
+			</el-steps>
+		</div>
   </div>
 </template>
 <script>

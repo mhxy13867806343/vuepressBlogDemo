@@ -3,13 +3,15 @@
   <h1>我的相关作品</h1>
   <main v-for="(k,v) in list" :key="v">
     <h2>{{k.name}}</h2>
-    <div class="datas" v-for="(x,y) in k.childList" :key="y"
+    <div class="datas" v-for="(x,y) in k.childList" :key="x+y"
          v-clipboard:success="clipboardSuccess"
          v-clipboard:copy="x.link"
     >
       <p>
-        <span v-if="x.type!=='pc'">{{x.name}}</span>
-        <el-link :href="x.link" target="_blank" v-if="x.type==='pc'"> {{x.name}}</el-link>
+        <span v-if="x.type=='pc'">{{x.name}}</span>
+        <el-link :href="x.link" target="_blank" v-if="x.type!=='pc'"
+				:underline="x.underline"
+				> {{x.name}}</el-link>
        </p>
       <el-image :src="x.img" v-if="x.img"></el-image>
     </div>
@@ -25,6 +27,53 @@ export default {
   data(){
     return {
       list:[
+				{
+					name:'政府相关h5',
+					childList:[
+						{
+							name:'群团集市',
+							link:'https://m.hzszqt.com/#/',
+							underline:true,
+							type:'h5'
+						},
+						{
+							name:'钱塘就业码学生端',
+							link:'https://em-h5.redcross668.com/#/',
+							underline:true,
+							type:'h5'
+						},
+						{
+							name:'钱塘就业码企业端',
+							link:'https://em-h5-company.redcross668.com/#/',
+							underline:true,
+							type:'h5'
+						},
+						{
+							name:'生命“髓”缘',
+							link:'http://smsy.yhxxfw.cn:8081/#/',
+							underline:true,
+							type:'h5'
+						},
+						{
+							name:'绍兴一体化捐赠救助平台',
+							link:'https://yhby.redcross668.com/#/',
+							underline:true,
+							type:'h5'
+						},
+						{
+							name:'大连市红十字会',
+							link:'https://qgjxh5.redcross668.com/#/',
+							underline:true,
+							type:'h5'
+						},
+						{
+							name:'计生协',
+							link:'http://jsxwj.redcross668.com/#/',
+							underline:true,
+							type:'h5'
+						},
+					]
+				},
         {
           name:'h5(wep app)端',
           childList:[
