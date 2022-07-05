@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="521fd628-a759-456d-bcae-06e97c6e3c60" name="Default Changelist" comment="Default Changelist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +56,7 @@
       <recent name="$PROJECT_DIR$/docs/.vuepress/components" />
     </key>
   </component>
-  <component name="RunManager" selected="Shell Script.deploy">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/static-blog--vuepress/docs/.vuepress/dist/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -108,10 +107,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="Shell Script.deploy" />
         <item itemvalue="JavaScript 调试.index.html" />
         <item itemvalue="npm.build" />
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.test" />
       </list>
     </recent_temporary>

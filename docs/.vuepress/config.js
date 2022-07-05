@@ -12,24 +12,30 @@ module.exports = {
     themeConfig: {
       nav:[ // 导航栏配置
         {text: '主页', link: '/' },
-        {text: '前端', link: '/fe/' },
-        { text:'es6',link:'/es6/'},
-          {
-              "text": "实例",
-              "link": "/codes/"
-          },
-    {text: '前端框架',
-
-    items:[
-        {
-            text:'vue',link:'/vue/',
-        }
-    ]
-},
+        // {text: '前端', link: '/fe/' },
+        // { text:'es6',link:'/es6/'},
+        //   {
+        //       "text": "实例",
+        //       "link": "/codes/"
+        //   },
+//     {text: '前端框架',
+//
+//     items:[
+//         {
+//             text:'vue',link:'/vue/',
+//         }
+//     ]
+// },
         {
             text: '社区',
             // 这里是下拉列表展现形式。
             items: [
+                {
+                    text:'源码分享',
+                    items: [
+                        {text:'前端源码',link:'https://www.yuque.com/jscode/mu1sm1/xoegmv#rw34'}
+                    ]
+                },
               { text: '技术站', items:[
                       {text:'掘金',
                           link: 'https://juejin.im/user/1310273588955581'
@@ -40,12 +46,16 @@ module.exports = {
                       }, { text: '微博', link: 'https://weibo.com/fangjiayu1107' },
                   ] },
                 { text: '笔记-语雀', items:[
+                        {
+                            text:'语雀:tailwindcss在vite/webstorm的相关配置',
+                            link: 'https://www.yuque.com/jscode/rd7to5/my7zm9'
+                        },
                       {
-                          text:'常用导航栏',
+                          text:'语雀:常用导航栏',
                           link: 'https://www.yuque.com/jscode/mu1sm1/yorp39'
                       },
                       {
-                          text:'有关在vue2中使用@vue/composition-api与unplugin-vue2-script-setup使用记录说明',
+                          text:'语雀:有关在vue2中使用@vue/composition-api与unplugin-vue2-script-setup使用记录说明',
                           link: 'https://www.yuque.com/jscode/rd7to5/dmlcys'
                       }
                   ] },
