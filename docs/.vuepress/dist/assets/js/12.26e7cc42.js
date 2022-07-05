@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{572:function(e,n,t){"use strict";t.r(n);var s={name:"commonly"},a=t(81),c=Object(a.a)(s,(function(){var e=this.$createElement;return(this._self._c||e)("div",[this._v("请稍等")])}),[],!1,null,"681a99e9",null);n.default=c.exports}}]);
