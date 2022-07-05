@@ -4,8 +4,7 @@
   <main v-for="(k,v) in list" :key="v">
     <h2>{{k.name}}</h2>
     <div class="datas" v-for="(x,y) in k.childList" :key="x+y"
-         v-clipboard:success="clipboardSuccess"
-         v-clipboard:copy="x.link"
+
     >
       <p>
         <span v-if="x.type=='pc'">{{x.name}}</span>
@@ -20,10 +19,8 @@
 </template>
 
 <script>
-import clipboard from '../directive/clipboard/index.js'
 export default {
-  name: "worksD",
-  directives: {clipboard},
+  name: "works",
   data(){
     return {
       list:[
@@ -140,13 +137,6 @@ export default {
     }
   },
   methods:{
-    clipboardSuccess(data){
-      console.log(data);
-      this.$message({
-        message: '复制成功~请使用微信客户端中手机访问',
-        type: 'success'
-      });
-    }
   }
 }
 </script>
